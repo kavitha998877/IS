@@ -16,7 +16,12 @@ public class Student implements Comparable<Student>{
 public String toString() {
 	return "Student [rollno=" + rollno + ", name=" + name + ", branch=" + branch + "]";
 }
-   public int compareTo(Student s) {
-	   return this.rollno-s.rollno;
-   }
+@Override
+public int compareTo(Student s) {
+	
+	// TODO Auto-generated method stub
+	return this.rollno-s.rollno;
+}
+   
+   
 }
